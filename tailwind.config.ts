@@ -4,7 +4,7 @@ const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -56,13 +56,13 @@ const config: Config = {
 
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        "red-hat": ["'Red Hat Display'", "sans-serif"],
       },
 
       colors: {
-        dark: "rgb(34, 40, 49)",
         "blue-300": "rgba(29, 228, 255, 0.90)",
-        "blue-700": "rgba(34, 40, 49, 1)",
         "blue-500": "rgba(38, 50, 67, 1)",
+        "blue-700": "rgba(34, 40, 49, 1)",
         "gray-100": "rgba(204, 214, 246, 1)",
         "gray-200": "rgba(204, 213, 243, 1)",
         white: "#fff",

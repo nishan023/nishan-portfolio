@@ -10,14 +10,15 @@ export default function Home() {
       <main className='p-4'>
         <section className='min-h-[85vh] max-w-[128rem] mx-auto flex flex-col gap-2 justify-center items-start'>
           <span>Hi there!</span>
-          <h1 className='font-bold leading-[1.1] text-4xl'>
+          <h1 className='font-bold leading-[1.1] text-3xl'>
             I am{" "}
             <span className='bg-gradient-linear-100 bg-clip-text text-transparent'>
-              Daniel Ezekiel.
+              Daniel Ezekiel
             </span>
+            .
           </h1>
-          <h3 className='font-bold text-xl'>
-            A Frontend Developer, building efficient and scalable web solutions.
+          <h3 className='font-bold text-xl text-gray-300'>
+            A Frontend Developer building efficient and scalable web solutions.
           </h3>
           <p>
             As a Software Engineer, I specialize in passionately building (and

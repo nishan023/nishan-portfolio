@@ -13,7 +13,7 @@ const Button = ({
   return (
     <Link
       href={href}
-      className={`px-4 py-3 rounded-2xl ${
+      className={`px-4 py-2 rounded-2xl ${
         !hasHover
           ? "bg-gradient-linear-300 border-1 border-transparent font-bold uppercase"
           : "border-gray-200 border-1 hover:border-0 hover:bg-gradient-linear-300"

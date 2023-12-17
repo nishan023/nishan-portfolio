@@ -26,7 +26,7 @@ const config: Config = {
         lg: "1.8rem",
         xl: "2.4rem",
         "2xl": "2.8rem",
-        "3xl": "3.2rem",
+        "3xl": "3.6rem",
         "4xl": "4.8rem",
         "5xl": "5.4rem",
         clamp: "clamp(8rem, 12vw, 15rem)",
@@ -65,6 +65,7 @@ const config: Config = {
         "blue-700": "rgba(34, 40, 49, 1)",
         "gray-100": "rgba(204, 214, 246, 1)",
         "gray-200": "rgba(204, 213, 243, 1)",
+        "gray-300": "rgb(178, 185, 207)",
         white: "#fff",
       },
 

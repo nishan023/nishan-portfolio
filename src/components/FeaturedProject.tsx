@@ -3,16 +3,7 @@ import React from "react";
 import { FaGithub, FaLink } from "react-icons/fa6";
 import SocialIcon from "./SocialIcon";
 import Link from "next/link";
-
-interface projectTypes {
-  id: number;
-  title: string;
-  description: string;
-  imageSrc?: string;
-  tools: string[];
-  githubUrl?: string;
-  liveUrl?: string;
-}
+import { projectTypes } from "@/types/project.types";
 
 const FeaturedProject = ({
   id,

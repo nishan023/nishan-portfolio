@@ -2,6 +2,7 @@ import React from "react";
 import SectionHeading from "../SectionHeading";
 import Image from "next/image";
 import FeaturedProject from "../FeaturedProject";
+import NotableProject from "../NotableProject";
 
 const projects = [
   {
@@ -39,7 +40,7 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section className='mt-10 mb-[4rem] max-w-[112rem] mx-auto grid gap-5 items-center sm:grid-cols-2 sm:items-stretch md:grid-cols-2 md:mb-[15rem] lg:grid-cols-1'>
+    <section className='my-10 mb-[4rem] max-w-[112rem] mx-auto grid gap-5 items-center sm:grid-cols-2 sm:items-stretch md:grid-cols-2 md:mb-[15rem] lg:grid-cols-1'>
       <SectionHeading
         headingText='Featured Projects'
         className='col-span-full'
@@ -48,6 +49,16 @@ const ProjectsSection = () => {
       {projects.map((project) => (
         <FeaturedProject key={project.id} {...project} />
       ))}
+
+      <section className='col-span-full grid gap-4 sm:grid-cols-2 lg:gap-6 xl:grid-cols-3'>
+        <h3 className='col-span-full mb-4 font-bold text-xl text-center uppercase'>
+          Noteworthy mentions
+        </h3>
+
+        {projects.map((project) => (
+          <NotableProject key={project.id} {...project} />
+        ))}
+      </section>
     </section>
   );
 };

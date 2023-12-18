@@ -23,7 +23,7 @@ const NotableProject = ({
         </SocialIcon>
       </div>
       <h4 className='font-bold text-[2rem] text-blue-400'>{title}</h4>
-      <p>{description}</p>
+      <p className='font-light'>{description}</p>
       <p className='mt-2 bg-gradient-linear-200 bg-clip-text font-semibold text-transparent'>
         {tools.join(", ")}
       </p>

@@ -19,7 +19,7 @@ const HeroSection = () => {
         <h3 className='font-bold text-xl text-gray-300 lg:text-2xl'>
           A Frontend Developer building efficient and scalable web solutions.
         </h3>
-        <p className='lg:text-lg'>
+        <p className='font-light lg:text-lg'>
           As a Software Engineer, I specialize in passionately building (and
           occasionally designing) characteristic web solutions and experiences
           for individuals and organizations with taste.

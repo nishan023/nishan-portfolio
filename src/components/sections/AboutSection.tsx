@@ -20,7 +20,7 @@ const AboutSection = () => {
   return (
     <section className='my-8 max-w-[120rem] mx-auto grid gap-4 items-center md:mb-[15rem] lg:grid-cols-2 xl:pr-4'>
       <SectionHeading headingText='About Me' className='col-span-full' />
-      <p>
+      <p className='font-light'>
         Hi! My name is Daniel and I enjoy building things on the web. This
         interest in Web development began during the lockdown period after I
         completed by Industrial Training in Aircraft Maintenance Engineering

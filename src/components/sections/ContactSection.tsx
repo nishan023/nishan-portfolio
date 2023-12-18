@@ -12,7 +12,7 @@ const ContactSection = () => {
           headingText="Don't be a Stranger."
           className='col-span-full mx-auto after:h-0'
         />
-        <p>
+        <p className='font-light'>
           Shoot me an email if you would like to work with me and let&apos;s
           have a great time while we&apos;re at it. You can also reach me on
           social media using the social icons.

@@ -11,3 +11,29 @@ body {
   background: rgba(34, 40, 49, 1);
 }
 
+@media screen and (min-width: 1024px) {
+  .trapezoid-odd-left {
+    clip-path: polygon(0% 0, 95% 0, 100% 100%, 0% 100%);
+    border-radius: 2rem 0 0 2rem;
+    overflow: hidden;
+  }
+
+  .trapezoid-odd-right {
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 5% 100%);
+    border-radius: 0 2rem 2rem 0;
+    overflow: hidden;
+  }
+
+  .trapezoid-even-left {
+    clip-path: polygon(0% 0, 95% 0, 100% 100%, 0% 100%);
+    border-radius: 2rem 0 0 2rem;
+    overflow: hidden;
+  }
+
+  .trapezoid-even-right {
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 5% 100%);
+    border-radius: 0 2rem 2rem 0;
+    overflow: hidden;
+  }
+}
+

@@ -26,8 +26,13 @@ const HeroSection = () => {
         </p>
 
         <div className='mt-6 flex gap-4 lg:text-lg'>
-          <Button href='' text='Projects' hasHover={false} />
-          <Button href='' text='My Résumé' hasHover={true} />
+          <Button href='/#projects' text='Projects' hasHover={false} />
+          <Button
+            href='https://onedrive.live.com/view.aspx?resid=3740BF192DB39BB9!1205&authkey=!AJhihLp34h8U-lY'
+            target='_blank'
+            text='My Résumé'
+            hasHover={true}
+          />
         </div>
       </div>
 

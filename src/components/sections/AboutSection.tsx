@@ -18,7 +18,10 @@ const allTools = [
 
 const AboutSection = () => {
   return (
-    <section className='my-8 max-w-[120rem] mx-auto grid gap-4 items-center md:mb-[15rem] lg:grid-cols-2 xl:pr-4'>
+    <section
+      id='about'
+      className='my-8 max-w-[120rem] mx-auto grid gap-4 items-center md:mb-[15rem] lg:grid-cols-2 xl:pr-4'
+    >
       <SectionHeading headingText='About Me' className='col-span-full' />
       <p className='font-light'>
         Hi! My name is Daniel and I enjoy building things on the web. This
@@ -34,10 +37,10 @@ const AboutSection = () => {
         solutions and experiences to one and all.
         <br />
         <br />
-        I have a Bachelor’s degree in Mechanical Engineering and for my final
-        thesis, I completed a published research paper during my undergraduate
-        program titled ‘Geometrical Attenuation of Shockwaves using rigid
-        obstacle matrices’.
+        I have a Bachelor&apos;s degree in Mechanical Engineering and for my
+        final thesis, I completed a published research paper during my
+        undergraduate program titled &apos;Geometrical Attenuation of Shockwaves
+        using rigid obstacle matrices&apos;.
         <br />
         <br />
         Outside my regular developer routine, I enjoy listening to music, gaming

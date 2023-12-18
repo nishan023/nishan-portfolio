@@ -33,8 +33,9 @@ const Header: React.FC = () => {
           <li className='w-[9rem] flex items-end gap-1 font-semibold'>
             <span className='text-sm text-gray-400'>00.</span>
             <Link
-              href='/'
+              href='/#about'
               className='hover:bg-gradient-linear-100 hover:bg-clip-text hover:text-transparent'
+              onClick={() => setIsOpen(false)}
             >
               About
             </Link>
@@ -43,8 +44,9 @@ const Header: React.FC = () => {
           <li className='w-[9rem] flex items-end gap-1 font-semibold'>
             <span className='text-sm text-gray-400'>01.</span>
             <Link
-              href='/'
+              href='/#projects'
               className='hover:bg-gradient-linear-100 hover:bg-clip-text hover:text-transparent'
+              onClick={() => setIsOpen(false)}
             >
               Projects
             </Link>
@@ -53,8 +55,9 @@ const Header: React.FC = () => {
           <li className='w-[9rem] flex items-end gap-1 font-semibold'>
             <span className='text-sm text-gray-400'>02.</span>
             <Link
-              href='/'
+              href='/#contact'
               className='hover:bg-gradient-linear-100 hover:bg-clip-text hover:text-transparent'
+              onClick={() => setIsOpen(false)}
             >
               Contact
             </Link>

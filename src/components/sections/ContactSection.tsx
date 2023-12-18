@@ -5,12 +5,15 @@ import SocialIcons from "../SocialIcons";
 
 const ContactSection = () => {
   return (
-    <section className='relative my-[10rem] max-w-[50rem] mx-auto grid gap-5 items-center text-center md:grid-cols-[1fr_auto] md:mb-[15rem]'>
+    <section
+      id='contact'
+      className='relative my-[10rem] max-w-[50rem] mx-auto grid gap-5 items-center text-center md:grid-cols-[1fr_auto] md:mb-[15rem]'
+    >
       <div className='grid gap-3'>
         <span className='font-semibold text-lg text-blue-400'>Next steps?</span>
         <SectionHeading
           headingText="Don't be a Stranger."
-          className='col-span-full mx-auto after:h-0'
+          className='col-span-full mx-auto after:h-[0_!important]'
         />
         <p className='font-light'>
           Shoot me an email if you would like to work with me and let&apos;s

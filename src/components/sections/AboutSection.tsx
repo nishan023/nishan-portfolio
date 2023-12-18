@@ -44,7 +44,7 @@ const AboutSection = () => {
         or reading about space and technology.
       </p>
 
-      <div className='ml-10'>
+      <div className='xl:ml-10'>
         <h3 className='mt-4 mb-4 font-bold text-lg text-blue-400 text-right'>
           My Tools and Technologies
         </h3>

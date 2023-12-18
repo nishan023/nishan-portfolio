@@ -25,7 +25,7 @@ const ContactSection = () => {
         />
       </div>
 
-      <SocialIcons className='w-[25rem] mt-4 mx-auto justify-center md:self-start md:w-fit md:mt-[9rem] md:max-h' />
+      <SocialIcons className='w-[25rem] mt-4 mx-auto justify-center md:self-start md:w-fit md:mt-[2rem] md:max-h' />
     </section>
   );
 };

@@ -2,6 +2,7 @@ import React from "react";
 import SocialIcon from "../SocialIcon";
 import { FaBehance, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa6";
 import Button from "../Button";
+import SocialIcons from "../SocialIcons";
 
 const HeroSection = () => {
   return (
@@ -30,20 +31,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <aside className='hidden h-full md:grid place-items-center gap-6'>
-        <SocialIcon href='https://github.com/daniel-ezekiel'>
-          <FaGithub className='w-12 h-12' />
-        </SocialIcon>
-        <SocialIcon href='https://www.linkedin.com/in/db-ezekiel'>
-          <FaLinkedin className='w-12 h-12' />
-        </SocialIcon>
-        <SocialIcon href='https://twitter.com/db_ezekiel'>
-          <FaTwitter className='w-12 h-12' />
-        </SocialIcon>
-        <SocialIcon href='https://www.behance.net/danielezekiel01'>
-          <FaBehance className='w-12 h-12' />
-        </SocialIcon>
-      </aside>
+      <SocialIcons className='hidden md:flex md:gap-6' />
     </section>
   );
 };

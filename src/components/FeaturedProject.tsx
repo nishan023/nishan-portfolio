@@ -39,12 +39,12 @@ const FeaturedProject = ({
           width={300}
           height={300}
           alt={title}
-          className='w-full h-full object-cover hover:scale-105 transition-transform ease-in-out duration-300'
+          className='w-full object-cover hover:scale-105 transition-transform ease-in-out duration-300 lg:h-full'
         />
       </Link>
 
       <div
-        className={`p-4 lg:p-0 lg:absolute lg:top-0 lg:w-[51%] ${
+        className={`p-4 lg:p-0 lg:absolute lg:top-0 lg:w-[50%] ${
           id % 2 ? "lg:right-0" : "lg:left-0"
         }`}
       >
@@ -62,7 +62,7 @@ const FeaturedProject = ({
             </h4>
           </Link>
           <p className='font-light'>{description}</p>
-          <div className={`mt-2 flex gap-5 ${id % 2 && "justify-end"}`}>
+          <div className={`mt-2 flex gap-5 ${id % 2 && "lg:justify-end"}`}>
             <SocialIcon href={githubUrl as string} title='Github Repo Link'>
               <FaGithub className='h-12 w-12 hover:animate-bounce' />
             </SocialIcon>
@@ -71,7 +71,11 @@ const FeaturedProject = ({
             </SocialIcon>
           </div>
         </div>
-        <p className='mt-4 font-semibold text-transparent bg-gradient-linear-200 bg-clip-text lg:mt-2 lg:w-[80%] lg:ml-auto lg:text-right'>
+        <p
+          className={`w-fit mt-4 font-semibold text-transparent bg-gradient-linear-200 bg-clip-text lg:mt-2 lg:w-[82%] ${
+            id % 2 && "lg:ml-auto lg:text-right"
+          }`}
+        >
           {tools.join(", ")}
         </p>
       </div>

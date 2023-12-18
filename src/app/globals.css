@@ -25,13 +25,13 @@ body {
   }
 
   .trapezoid-even-left {
-    clip-path: polygon(0% 0, 95% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0, 100% 0, 95% 100%, 0% 100%);
     border-radius: 2rem 0 0 2rem;
     overflow: hidden;
   }
 
   .trapezoid-even-right {
-    clip-path: polygon(0% 0, 100% 0, 100% 100%, 5% 100%);
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
     border-radius: 0 2rem 2rem 0;
     overflow: hidden;
   }

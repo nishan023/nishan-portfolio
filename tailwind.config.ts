@@ -61,6 +61,7 @@ const config: Config = {
 
       colors: {
         "blue-300": "rgba(29, 228, 255, 0.90)",
+        "blue-400": "rgb(126, 146, 217)",
         "blue-500": "rgba(38, 50, 67, 1)",
         "blue-700": "rgba(34, 40, 49, 1)",
         "gray-100": "rgba(204, 214, 246, 1)",

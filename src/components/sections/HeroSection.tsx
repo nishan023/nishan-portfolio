@@ -1,6 +1,4 @@
 import React from "react";
-import SocialIcon from "../SocialIcon";
-import { FaBehance, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa6";
 import Button from "../Button";
 import SocialIcons from "../SocialIcons";
 

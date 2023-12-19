@@ -22,7 +22,7 @@ const NotableProject = ({
           <FaLink className='h-12 w-12 hover:animate-bounce' />
         </SocialIcon>
       </div>
-      <h4 className='font-bold text-[2rem] text-blue-400'>{title}</h4>
+      <h4 className='font-bold text-[2rem] text-blue-400 uppercase'>{title}</h4>
       <p className='font-light'>{description}</p>
       <p className='mt-2 bg-gradient-linear-200 bg-clip-text font-semibold text-transparent'>
         {tools.join(", ")}

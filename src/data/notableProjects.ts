@@ -1,33 +1,33 @@
 export const notableProjects = [
   {
     id: 1,
-    imageSrc: "/images/lmdb.png",
-    title: "LMDb - Little Movie Database",
+    imageSrc: "",
+    title: "Countries Wiki",
     description:
-      "Discover movies with little effort using LMDB, a sleek cinematic database inspired by TMDB. This user-friendly app offers quick access to film details, including cast, crew, and synopses. Stripped of login and favoriting features, LMDB focuses on simplicity, providing cinephiles with a hassle-free and lightweight platform for seamless movie exploration.",
-    tools: ["React", "TailwindCSS", "Typescript", "Tanstack Query", "TMDb API"],
-    githubUrl: "https://github.com/Daniel-Ezekiel/lmdb-moviebox-v1",
-    liveUrl: "https://lmdb-v1.vercel.app/",
+      "This web app is a simple web application that allows the user see or search for different countries of the world across different continents as well as obtain more information about the selected country. The app also showcases a functional dark theme toggler.",
+    tools: ["React", "TailwindCSS", "Typescript", "REST Countries API"],
+    githubUrl: "https://github.com/Daniel-Ezekiel/Countries-Wiki",
+    liveUrl: "https://countries-wiki-phi.vercel.app/",
   },
 
   {
     id: 2,
-    imageSrc: "/images/lmdb.png",
-    title: "LMDb - Little Movie Database",
-    description:
-      "Discover movies effortlessly with LMDB, a sleek cinematic database inspired by TMDB. This user-friendly app offers quick access to film details, including cast, crew, and synopses. Stripped of login and favoriting features, LMDB focuses on simplicity, providing cinephiles with a hassle-free and lightweight platform for seamless movie exploration.",
-    tools: ["React", "TailwindCSS", "Typescript", "Tanstack Query", "TMDb API"],
-    githubUrl: "https://github.com/Daniel-Ezekiel/lmdb-moviebox-v1",
-    liveUrl: "https://lmdb-v1.vercel.app/",
+    imageSrc: "",
+    title: "Galleria D'Immagini",
+    description: `A fully functional image gallery page with a drag-and-drop image rearrangement feature for only authenticated users.
+    Test login details: 'user@example.com'; '1Password'.`,
+    tools: ["React", "TailwindCSS", "Firebase", "DND-Kit"],
+    githubUrl: "https://github.com/Daniel-Ezekiel/HNG-X/tree/main/stage3-task",
+    liveUrl: "https://hngx-stage3.vercel.app/",
   },
   {
     id: 3,
-    imageSrc: "/images/lmdb.png",
-    title: "LMDb - Little Movie Database",
+    imageSrc: "",
+    title: "Bankist Web App",
     description:
-      "Discover movies effortlessly with LMDB, a sleek cinematic database inspired by TMDB. This user-friendly app offers quick access to film details, including cast, crew, and synopses. Stripped of login and favoriting features, LMDB focuses on simplicity, providing cinephiles with a hassle-free and lightweight platform for seamless movie exploration.",
-    tools: ["React", "TailwindCSS", "Typescript", "Tanstack Query"],
-    githubUrl: "https://github.com/Daniel-Ezekiel/lmdb-moviebox-v1",
-    liveUrl: "https://lmdb-v1.vercel.app/",
+      "This is a simple banking application where customers may login and see their latest transactions, send and recieve funds betweeen other customers and even request loan from the 'bank'. Some test usernames and passwords are {js, 1111} and {jd, 2222}",
+    tools: ["HTML", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/Daniel-Ezekiel/bankist-app",
+    liveUrl: "https://bankisted.vercel.app/",
   },
 ];

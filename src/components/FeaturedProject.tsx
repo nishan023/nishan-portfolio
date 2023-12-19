@@ -16,26 +16,27 @@ const FeaturedProject = ({
 }: projectTypes) => {
   return (
     <div
-      className={`mb-5 bg-blue-500 rounded-xl overflow-hidden shadow-lg lg:relative lg:h-[40rem] lg:mb-10 lg:bg-transparent lg:shadow-none lg:grid lg:grid-cols-2 lg:gap-3`}
+      className={`mb-5 bg-blue-500 rounded-xl overflow-hidden shadow-lg lg:relative lg:h-[35rem] lg:mb-10 lg:bg-transparent lg:shadow-none lg:grid lg:grid-cols-2 lg:gap-3`}
     >
       <Link
         href={liveUrl as string}
         target='_blank'
-        className={`lg:h-full ${
+        className={`relative lg:h-full ${
           id % 2 ? "trapezoid-odd-left" : "trapezoid-even-right"
         } lg:shadow-2xl ${!(id % 2) && "col-start-2"}`}
       >
+        <div className='absolute h-full w-full top-0 left-0 bg-[rgba(0,0,0,0.1)] hover:z-[-1]'></div>
         <Image
           src={imageSrc as string}
           width={1280}
           height={720}
           alt={title}
-          className='w-full object-cover hover:scale-105 transition-transform ease-in-out duration-300 lg:h-full'
+          className='w-full object-cover hover:scale-105 transition-transform ease-in-out duration-300 lg:h-full lg:hover:scale-[102%]'
         />
       </Link>
 
       <div
-        className={`p-4 lg:p-0 lg:absolute lg:top-0 lg:w-[50%] ${
+        className={`p-4 lg:p-0 lg:absolute lg:top-0 lg:w-[50.5%] ${
           id % 2 ? "lg:right-0" : "lg:left-0"
         }`}
       >

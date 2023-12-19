@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     "Daniel Ezekiel",
     "Daniel Boluwatife Ezekiel",
     "Daniel Ezekiel Portfolio",
+    "Daniel Ezekiel Frontend Developer",
   ],
   creator: "Daniel Ezekiel",
 
@@ -51,21 +52,21 @@ export const metadata: Metadata = {
     description:
       "Daniel Ezekiel is a Frontend Developer who specializes in passionately delivering characteristic web solutions and experiences with code.",
     url: "https://danielbezekiel.vercel.app",
-    siteName: "Daniel Ezekiel - Portfolio",
+    siteName: "Daniel Ezekiel - Portfolio website",
     images: [
       {
         url: "/images/og-image.png",
-        width: 800,
-        height: 600,
+        width: 1280,
+        height: 720,
       },
       {
         url: "/images/og-image.png",
-        width: 1800,
-        height: 1600,
+        width: 1920,
+        height: 1080,
         alt: "Preview Image",
       },
     ],
-    // locale: 'en_US',
+    locale: "en_US",
     type: "website",
   },
 

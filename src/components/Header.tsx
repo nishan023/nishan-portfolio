@@ -28,7 +28,7 @@ const Header: React.FC = () => {
         <ul
           className={`fixed h-screen w-screen top-0 ${
             !isOpen ? "-right-[100vw]" : "right-0"
-          } flex flex-col justify-center items-center gap-8 bg-[rgba(255,255,255,0.04)] backdrop-blur-[4rem] transition-all ease-in-out duration-500 md:h-fit md:w-fit md:static md:bg-transparent md:flex-row md:gap-4`}
+          } z-[1] flex flex-col justify-center items-center gap-8 bg-[rgba(255,255,255,0.04)] backdrop-blur-[4rem] transition-all ease-in-out duration-500 md:h-fit md:w-fit md:static md:bg-transparent md:flex-row md:gap-4`}
         >
           <li className='w-[9rem] flex items-end gap-1 font-semibold'>
             <span className='text-sm text-gray-400'>00.</span>
@@ -65,7 +65,9 @@ const Header: React.FC = () => {
         </ul>
 
         <button
-          className='relative w-fit md:hidden z-1'
+          className={`w-fit z-[2] ${
+            isOpen && "fixed right-4 top-[2.25rem]"
+          } md:hidden`}
           aria-label='Toggle menu'
           onClick={() => setIsOpen(!isOpen)}
         >

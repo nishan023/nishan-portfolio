@@ -27,8 +27,8 @@ const FeaturedProject = ({
       >
         <Image
           src={imageSrc as string}
-          width={300}
-          height={300}
+          width={1280}
+          height={720}
           alt={title}
           className='w-full object-cover hover:scale-105 transition-transform ease-in-out duration-300 lg:h-full'
         />

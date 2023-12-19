@@ -14,9 +14,9 @@ const HeroSection = () => {
           </span>
           .
         </h1>
-        <h3 className='font-bold text-xl text-gray-300 lg:text-2xl'>
+        <h2 className='font-bold text-xl text-gray-300 lg:text-2xl'>
           A Frontend Developer building efficient and scalable web solutions.
-        </h3>
+        </h2>
         <p className='font-light lg:text-lg'>
           As a Software Engineer, I specialize in passionately building (and
           occasionally designing) characteristic web solutions and experiences

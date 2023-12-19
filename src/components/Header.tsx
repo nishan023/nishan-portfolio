@@ -66,6 +66,7 @@ const Header: React.FC = () => {
 
         <button
           className='relative w-fit md:hidden z-1'
+          aria-label='Toggle menu'
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (

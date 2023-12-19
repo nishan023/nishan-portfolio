@@ -4,10 +4,12 @@ import React from "react";
 const SocialIcon = ({
   href,
   title,
+  ariaLabel,
   children,
 }: {
   href: string;
   title?: string;
+  ariaLabel?: string;
   children: React.ReactNode;
 }) => {
   return (
@@ -15,6 +17,7 @@ const SocialIcon = ({
       href={href}
       target='_blank'
       title={title}
+      aria-label={ariaLabel}
       className='hover:animate-bounce'
     >
       {children}

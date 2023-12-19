@@ -6,18 +6,21 @@ const Button = ({
   href,
   hasHover,
   target,
+  ariaLabel,
   className,
 }: {
   text: string;
   href: string;
   hasHover: boolean;
   target?: string;
+  ariaLabel?: string;
   className?: string;
 }) => {
   return (
     <Link
       href={href}
       target={target}
+      aria-label={ariaLabel}
       className={`px-4 py-2 rounded-2xl ${
         !hasHover
           ? "bg-gradient-linear-300 border-1 border-transparent font-bold uppercase"

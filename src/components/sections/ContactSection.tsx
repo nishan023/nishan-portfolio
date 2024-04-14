@@ -15,9 +15,9 @@ const ContactSection = () => {
           className="col-span-full mx-auto after:h-[0_!important]"
         />
         <p className="font-light">
-          "Ready to collaborate? Drop me an email and let's make magic together!
+          Ready to collaborate? Drop me an email and let's make magic together!
           🚀 Connect with me on social media through the icons below for some
-          extra fun vibes!"
+          extra fun vibes!
         </p>
         <Button
           href="mailto:nissandhakal11@gmail.com"

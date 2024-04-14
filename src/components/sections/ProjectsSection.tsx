@@ -21,7 +21,7 @@ const ProjectsSection = () => {
         <FeaturedProject key={project.id} {...project} />
       ))}
 
-      <section className='col-span-full grid gap-4 sm:grid-cols-2 lg:gap-6 xl:grid-cols-3'>
+      {/* <section className='col-span-full grid gap-4 sm:grid-cols-2 lg:gap-6 xl:grid-cols-3'>
         <h3 className='col-span-full mb-4 font-bold text-xl text-center uppercase'>
           Noteworthy mentions
         </h3>
@@ -29,7 +29,8 @@ const ProjectsSection = () => {
         {notableProjects.map((project) => (
           <NotableProject key={project.id} {...project} />
         ))}
-      </section>
+      </section> */}
+      
     </section>
   );
 };

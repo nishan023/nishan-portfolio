@@ -94,6 +94,7 @@
 //   );
 // }
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // import { Red_Hat_Display } from "next/font/google";
 import "./globals.css";
 
@@ -176,7 +177,6 @@ export const metadata: Metadata = {
     images: ["https://danielbezekiel.vercel.app/images/og-image.png"],
   },
 };
-
 export default function RootLayout({
   children,
 }: {
@@ -184,7 +184,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className='font-inter text-base'>{children}</body>
+      <body className='font-inter text-base'>{children}
+      <SpeedInsights />
+      </body>
 
     </html>
   );

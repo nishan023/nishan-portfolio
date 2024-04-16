@@ -7,7 +7,7 @@ export const featuredProjects = [
       "Our website provides BSc.CSIT students with comprehensive lecture notes and practical lab exercises, enhancing both theoretical understanding and hands-on skills in computer science and IT.",
     tools: ["HTML", "CSS", "Blogger"],
     githubUrl: "https://github.com/nishan023",
-    liveUrl: "https://dhakalsandeep13.com.np/",
+    liveUrl: "https://dhakalnishan.com.np/",
   },
 
   // {
